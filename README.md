@@ -21,7 +21,7 @@ A sleek and responsive **Landing Page** featuring an interactive **Navigation Me
 - **JavaScript** for scroll-based interactivity  
 
 ### 🌐 Live Demo:
-[Responsive Landing Page Demo](#)
+[Responsive Landing Page Demo](https://responsivelandingpage-kishore.vercel.app/#home)
 
 ### 💡 Knowledge Gained:
 - Implementing scroll-based animations  
@@ -47,7 +47,7 @@ A fully functional **Stopwatch Web Application** that allows users to start, pau
 - **JavaScript** for dynamic functionality  
 
 ### 🌐 Live Demo:
-[Stopwatch Web Application Demo](#)
+[Stopwatch Web Application Demo](https://stopwatchwebapplicationkishore.vercel.app/)
 
 ### 💡 Knowledge Gained:
 - DOM Manipulation using JavaScript  
@@ -74,7 +74,7 @@ A classic **Tic-Tac-Toe Game** built for two players, with winning condition log
 - **JavaScript** for game logic and AI implementation  
 
 ### 🌐 Live Demo:
-[Tic-Tac-Toe Game Demo](#)
+[Tic-Tac-Toe Game Demo](https://aitic-tac-toewebapplicationkishore.vercel.app/)
 
 ### 💡 Knowledge Gained:
 - Implementing game logic using arrays and loops  
