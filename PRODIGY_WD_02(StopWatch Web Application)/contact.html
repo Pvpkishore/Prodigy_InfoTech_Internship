@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Stopwatch App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Stopwatch App</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>If you'd like to connect or collaborate, feel free to reach out through the following platforms:</p>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ponnala-venkata-padma-kishor-76679326a/" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Pvpkishore" target="_blank" class="social-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Stopwatch App | Designed with ❤️ by Pvpkishore</p>
+  </footer>
+
+  <!-- JavaScript for Navbar -->
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>

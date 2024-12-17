@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./Assets/icons8-stop-watch-64.png">
+  <title>Stopwatch - ProDigy Infotech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Stopwatch | ProDigy Infotech</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Stopwatch</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <h1>⏱️ Stylish Stopwatch</h1>
+    <!-- Stopwatch Display -->
+    <div id="stopwatch-display" class="pulse">00:00:00</div>
+
+    <!-- Control Buttons -->
+    <div class="controls">
+      <button id="start-btn" class="btn">Start</button>
+      <button id="pause-btn" class="btn" disabled>Pause</button>
+      <button id="reset-btn" class="btn" disabled>Reset</button>
+      <button id="lap-btn" class="btn" disabled>Lap</button>
+    </div>
+
+    <!-- Lap List -->
+    <ul id="laps"></ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 ProDigy Infotech- By Pvpkishore. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

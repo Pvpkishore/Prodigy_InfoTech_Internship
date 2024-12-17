@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container styling */
+  .container {
+    text-align: center;
+  }
+  
+  /* Game board grid */
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 315px;
+  }
+  
+  /* Individual cells */
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cell.taken {
+    pointer-events: none; /* Prevent clicking on already-taken cells */
+  }
+  
+  .cell.winning {
+    background-color: #c8e6c9; /* Light green for winning cells */
+    animation: pulse 0.5s ease-in-out infinite alternate;
+  }
+  
+  /* Highlight O as red */
+  .cell.O {
+    color: red;
+  }
+  
+  /* Highlight X */
+  .cell.X {
+    color: #333;
+  }
+  
+  /* Status message */
+  .status {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  /* Reset button */
+  .reset-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Pulse Animation for Winning Cells */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  

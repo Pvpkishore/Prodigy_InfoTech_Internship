@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Stopwatch App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Stopwatch App</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="container">
+      <h1>About Stopwatch App</h1>
+      <p>
+        Welcome to the Stopwatch App! This is a simple and interactive web-based stopwatch application designed for everyday use. Whether you are timing workouts, studying, or tracking events, our app provides an accurate and user-friendly experience.
+      </p>
+      <h2>Features:</h2>
+      <ul>
+        <li>Start, Pause, Reset functionality</li>
+        <li>Lap Time Recording</li>
+        <li>Responsive Design for all devices</li>
+        <li>Interactive Animations</li>
+      </ul>
+      <h2>Technologies Used:</h2>
+      <p>
+        The Stopwatch App is built using:
+      </p>
+      <ul>
+        <li><strong>HTML:</strong> Structuring the application</li>
+        <li><strong>CSS:</strong> Styling and animations</li>
+        <li><strong>JavaScript:</strong> Timer logic and interactivity</li>
+      </ul>
+      <p>
+        Our goal is to create a seamless and visually appealing stopwatch experience for users around the globe. Thank you for using our app!
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Stopwatch App | Designed with ❤️ by ProDigy Infotech - By pvpkishore</p>
+  </footer>
+
+  <!-- JavaScript for Navbar -->
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
