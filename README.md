@@ -123,7 +123,7 @@ A responsive **personal portfolio website** showcasing skills, projects, and con
 ---
 
 ## 🚀 Connect With Me:
-- **LinkedIn:** [Your LinkedIn Profile](#)  
-- **GitHub:** [Your GitHub Profile](#)  
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/ponnala-venkata-padma-kishor-76679326a/)  
+- **GitHub:** [Your GitHub Profile](https://github.com/Pvpkishore)  
 
 Feel free to explore these projects and let me know your thoughts or suggestions!
